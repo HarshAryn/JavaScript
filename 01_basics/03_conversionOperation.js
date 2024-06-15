@@ -41,3 +41,18 @@ let roll = Number(names)
 
 console.log(typeof roll);
 console.log(roll);
+
+let isLoggedIn = 1
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+
+console.log(booleanIsLoggedIn);
+
+// 1 => true / 0 => false
+// "" => false
+// "Harsh" => true
+
+let someNumber = 33
+let numberInString = String(someNumber)
+
+console.log(typeof numberInString);
+console.log(numberInString);
