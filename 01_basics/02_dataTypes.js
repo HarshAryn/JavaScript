@@ -1,10 +1,14 @@
 "use strict"; //treat all JS code as newer version
 
-// alert(3+3) //we are using nodejs, not browser
+// alert(3+3) //we are using nodejs, not browser. This will run in browser's developer console but not here.
 
 console.log(3
     +
 3); //bad code readibility
+
+// console.log(3 + 3) console.log("Harsh") //ERROR
+
+console.log(3 + 3); console.log("Harsh") //Won't show error but bad code readibility
 
 console.log("Harsh");
 
