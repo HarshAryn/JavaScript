@@ -2,7 +2,7 @@ const accountId = 178203 //can't be changed further
 let accountEmail = "aryan@gmail.com"
 var accountPassword = "12345"
 accountCity = "Dhanbad"
-let accountState;
+let accountState; //will return undefined coz we have not assigend a value to it
 
 // accountId = 0708208 //not allowed
 
