@@ -30,5 +30,5 @@ let city;
 
 console.log(typeof "Harsh");
 console.log(typeof age);
-console.log(typeof null); //object
-console.log(typeof undefined); //undefined
+console.log(typeof null); // o/p -> object
+console.log(typeof undefined); // o/p -> undefined
