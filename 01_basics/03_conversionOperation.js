@@ -19,6 +19,10 @@ console.log(valueInNum);
 console.log(valueInNumber); // NaN => Not a Number
 
 let eggs = null
+
+console.log(typeof eggs) // object
+console.log(eggs) // 0
+
 let bread = Number(eggs)
 
 console.log(typeof bread);
