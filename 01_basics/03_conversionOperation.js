@@ -63,3 +63,39 @@ let numberInString = String(someNumber)
 
 console.log(typeof numberInString);
 console.log(numberInString);
+
+//************************************* OPERATIONS *****************************//
+
+let val = 3
+let negVal = -val
+
+console.log(negVal)
+
+let str1 = "Hello"
+let str2 = " Harsh"
+
+let str3 = str1 + str2
+
+console.log(str3)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+
+console.log(+true)
+//console.log(true+) => ERROR
+
+console.log(+"")
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2 //not a good practice
+
+let gameCounter = 100
+
+++gameCounter
+console.log(gameCounter)
+
+gameCounter++
+console.log(gameCounter)
