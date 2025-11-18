@@ -19,17 +19,10 @@ console.log(valueInNum);
 console.log(valueInNumber); // NaN => Not a Number
 
 let eggs = null
-
-console.log(typeof eggs) // object
-
-let eggsInNum = Number(eggs)
-
-console.log(eggsInNum) // 0
-
 let bread = Number(eggs)
 
-console.log(typeof bread);
-console.log(bread);
+console.log(typeof bread); // object
+console.log(bread); // 0
 
 let banana = undefined
 let apple = Number(banana)
@@ -54,7 +47,14 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 console.log(booleanIsLoggedIn);
 
-// 1 => true / 0 => false
+// for Number
+// 33 => 33
+// 45abc => NaN
+// harsh => NaN
+// true => 1; false => 0
+
+// for Boolean
+// 1 => true; 0 => false
 // "" => false
 // "Harsh" => true
 
