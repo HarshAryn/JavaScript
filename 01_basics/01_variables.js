@@ -1,4 +1,4 @@
-const accountId = 178203
+const accountId = 178203 //can't be changed further
 let accountEmail = "aryan@gmail.com"
 var accountPassword = "12345"
 accountCity = "Dhanbad"
@@ -6,11 +6,14 @@ let accountState;
 
 // accountId = 0708208 //not allowed
 
+//Rest all can be changed
 accountEmail = "harsh.gmail.com"
 accountPassword = "00000"
 accountCity = "Delhi"
 
-console.log("accountId")
+console.log("accountId") //would have shown error if accountId was changed.
+
+//In JS variables can be declared using let or var both but...
 
 /*
 Prefer not to use var
